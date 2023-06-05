@@ -248,7 +248,6 @@ border-radius: 2px;
 padding-right: 5px;
 }
 
-
 .espacio {
     width: 100%;
     height: 110px;
@@ -439,12 +438,32 @@ padding-right: 5px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
+    color: rgb(100, 123,255);
+    font-size: 250%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
         
+}
+.hmtlcss {
+   opacity:0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
 }
 .portafolioejemplo1:hover {
     opacity: 0.3;
-
+     
 }
+.hmtlcss:hover {
+    opacity:1;
+    
+}
+
+
 .portafolioejemplo2 {
     width: 30%;
     height: 90%;
@@ -491,7 +510,6 @@ padding-right: 5px;
 
 }
 .portofoliolinea2izq {
-    /*background-color: aqua;*/
     height: 100%;
     width: 30%;
     margin-top: 0%;
@@ -546,6 +564,12 @@ padding-right: 5px;
     background-position: center;
     margin-top: 1%;
     border-radius: 2%;
+    color: rgb(100, 123,255);
+    font-size: 250%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
 }
 .portafolioejemplo5:hover {
     opacity: 0.3;
