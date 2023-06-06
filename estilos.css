@@ -126,10 +126,10 @@ border-radius: 2px;
     margin: 0 auto;
     padding-top: 6%;
     display: flex;
-    /*background-image: url(imagenes/Fotopersonal.png);
+    background-image: url(imagenes/fotopersonal1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;*/
+    background-size: contain;
     
     
 }
@@ -356,7 +356,8 @@ padding-right: 5px;
     z-index: -2;
 }
 .imagenacercade {
-    background-image: url(imagenes/mujer.jpg);
+    background-image: url(imagenes/fotopersonal2.jpg);
+    background-size: cover;
     height: 26.5rem;
     width: 20rem;
     border-radius: 2%;
@@ -422,6 +423,9 @@ padding-right: 5px;
 /*SECCION 3: HABILIDADES*/
 .seccionhabilidades {
     margin-bottom: 5rem;
+}
+.titulohabilidades {
+    margin-top: 4rem;
 }
 .navhabilidades {
     
@@ -711,6 +715,7 @@ padding-right: 5px;
     border: none;
     padding-left: 5%;
     color: white;
+    font-size: 0.6rem
 }
 .inputmensaje {
     width: 95%;
@@ -721,6 +726,7 @@ padding-right: 5px;
     padding-left: 5%;
     padding-top: 5%;
     color: white;
+    font-size: 0.6rem;
     font-family: "Poppins";
     resize: none;
     
@@ -890,6 +896,10 @@ padding-top: -2%;
     padding-bottom: 0.8rem;
 }
 
+/*MEDIA QUERIE*/
+
+/*Medida iPhone 12 Pro 390X844*/
+
 @media (max-width:767px) {
  .menu{
     display: none;
@@ -933,8 +943,8 @@ padding-top: -2%;
     display: none;
 }
 .navacercade {
-     scale: 0.6;
-     padding-left: 11rem;
+     scale: 0.5;
+     padding-left: 1rem;
      padding-right: 0;
      }
 .acercadeDer {
@@ -954,6 +964,7 @@ padding-top: -2%;
     scale: 0.5;
     margin-right: 2rem;
     margin-left: 1rem; 
+    
     
 }
 .navhabilidades {
@@ -1003,6 +1014,8 @@ padding-top: -2%;
 }
 
 }
+
+/*Medida Ipad 768x1024*/
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     .menu{
@@ -1114,6 +1127,9 @@ padding-top: -2%;
         scale: 0.8;
     }
 }
+
+/*Media medidas intermedias*/
+
 @media (max-width:598px) {
     .navacercade {
         scale: 0.6;
@@ -1121,7 +1137,13 @@ padding-top: -2%;
         padding-right: 0;
         }
     }
+
+/*Media querie Macbook Pro 1440x900*/
+
 @media only screen and (min-width: 1024px) and (max-width: 1919px){
+    .seccion1{
+        background-position: center;
+    }
     .botoncontratame {
         margin-right:0%;
     }
@@ -1139,6 +1161,9 @@ padding-top: -2%;
 
     }
 }
+
+/*Media Querie desktop*/
+
 @media (min-width:1920px){
     .botoncontratame {
         margin-right:2%;
@@ -1149,6 +1174,9 @@ padding-top: -2%;
     }
     .seccion1der {
         margin-top: 10%;
+    }
+    .seccion1{
+        background-position: center;
     }
 
 }
