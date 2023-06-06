@@ -25,7 +25,7 @@ body {
     
     width: 80%;
     color:  rgba(34, 35, 49, 0.50 );
-    font-size: 45px;
+    font-size: 3rem;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -482,12 +482,13 @@ padding-right: 5px;
 /*SECCION 4 : PORTAFOLIO*/
 
 .navportafolio {
-    /*background-color: brown;*/
+   
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
     justify-content: center;
+    font-size: 1.2rem;
 }
 .portofoliolinea1 {
     /*background-color: coral;*/
@@ -918,8 +919,9 @@ padding-top: -2%;
 
 }
 .titulo {
-    scale: 0.5;
     margin-left: -10%;
+    font-size: 21px;     
+    padding-left: 20%;    
 }
 .seccion1 {
     height: 68vh;
@@ -928,11 +930,72 @@ padding-top: -2%;
     display: none;
 }
 .navacercade {
-     scale: 0.4;
-
+     scale: 0.6;
      }
 .acercadeDer {
     word-spacing: normal;
+    width: 95%;
+    margin-bottom: 10rem;
+}
+.tituloacercade {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.datospersonales {
+    flex-direction: column;
+}
+.acercadebotones {
+    scale: 0.5;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    
+    
+}
+.navhabilidades {
+    scale: 0.6;
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.lineahabilidad {
+    scale: 0.5;
+    margin-left: -8%;
+}
+.lineacirculos {
+    scale: 0.5;
+}
+.navportafolio {
+    scale: 0.6;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1%;
+    justify-content: center;
+}
+.menuportafolio {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+.portafolioejemplo1{
+    background-repeat: repeat;
+}   
+.portafolioejemplo5 { 
+    background-size: contain;
+    background-repeat: repeat;
+}
+.contenedorfooter {
+    display: none;
+}
+.botones {
+    scale: 0.7;
+}
+.descargarcv {
+    margin-top: 1.5rem;
+    margin-left:-1.3rem; 
+}
+.datos{
+    padding: 0.4rem 0;
 }
 
 }
