@@ -102,6 +102,20 @@ background-color: rgb(23, 27, 60);
 border: none;
 border-radius: 2px;
 }
+.botoncontratame {
+    display: flex;
+    margin-right:-3%;
+}
+.iconomenu {
+    background-image: url(imagenes/menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3rem ;
+    height: 3rem;
+    margin-right: -12%;
+    display: none;
+
+}
 
 /*Seccion 1: HERO*/
 
@@ -307,7 +321,7 @@ padding-right: 5px;
 
 .espacio {
     width: 100%;
-    height: 110px;
+    height: 8rem;
     
 }
 
@@ -356,7 +370,7 @@ padding-right: 5px;
 .acercadeDer {
     
     width: 90%;
-    letter-spacing: px;
+    
     word-spacing: 2px; 
 }
 
@@ -364,6 +378,7 @@ padding-right: 5px;
     color: white;
     font-size: 0.7rem;
     margin-top: 1rem;
+    text-align: justify;
 }
 .parrafo1 {
     padding-bottom: 1rem;
@@ -803,13 +818,13 @@ padding-top: -2%;
 .footerservicios {
     width: 33%;
     height: 100%;
-    background-color: ;
+    
 
 }
 .footercontacto {
     width: 33%;
     height: 100%;
-    background-color: ;
+   
 
 }
 .logo2 {
@@ -869,4 +884,55 @@ padding-top: -2%;
     border-top: 1px solid white;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+@media (max-width:480px) {
+ .menu{
+    display: none;
+ }
+ .botoncontratame{
+    display: none;
+ }
+ .iconomenu {
+    display: block;
+    margin-right: 0.1rem;
+}
+.hola {
+    scale: 0.5;
+    margin-left: -40%;
+}
+.nombreyapellido {
+    flex-direction: column;
+}
+.Seguime { 
+    scale: 0.8;
+    
+}
+.linea2 {
+    margin-top: 2rem;
+    scale: 0.8;
+}
+.cajaiconosredes {
+    scale: 0.7;
+    margin-top: -1rem;
+
+}
+.titulo {
+    scale: 0.5;
+    margin-left: -10%;
+}
+.seccion1 {
+    height: 68vh;
+}
+.acercadeIzq {
+    display: none;
+}
+.navacercade {
+     scale: 0.4;
+
+     }
+.acercadeDer {
+    word-spacing: normal;
+}
+
 }
