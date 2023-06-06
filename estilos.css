@@ -1014,12 +1014,15 @@ padding-top: -2%;
 }
 .lineazigzag{
     display: none;
+    scale: 0.1;
 } 
 .cubo1{
     display: none;
+    scale: 0.1;
 }
 .cubo2{
     display: none;
+    scale: 0.1;
 }
 
 }
