@@ -1012,6 +1012,9 @@ padding-top: -2%;
 .datos{
     padding: 0.4rem 0;
 }
+.lineazigzag .cubo1 .cubo2 {
+    display: none;
+}
 
 }
 
