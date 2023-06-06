@@ -30,7 +30,7 @@ body {
     margin-right: 10%;
     text-align: center;
     font-family: sans-serif;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 .botones {
     background-color: rgb(100, 123,255);
@@ -107,13 +107,14 @@ border-radius: 2px;
 
 .seccion1 {
     width: 80%;
+    height: 78vh;
     margin: 0 auto;
-    padding-top: 9%;
+    padding-top: 6%;
     display: flex;
-    background-image: url(imagenes/Fotopersonal.png);
+    /*background-image: url(imagenes/Fotopersonal.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: contain;*/
     
     
 }
@@ -130,7 +131,7 @@ border-radius: 2px;
 
 .Seguime {
     transform: rotate(90deg);
-    margin-top: 170px;
+    margin-top: 8rem;
     margin-left: 5px;
     color: white;
     font-size: smaller;
@@ -144,8 +145,8 @@ border-radius: 2px;
     border: solid 1px;
     border-color: rgb(60, 76, 154);
     background-color: rgb(100, 123,255);
-    margin-left: 48%;
-    margin-top: 20%;
+    margin-left: 50%;
+    margin-top: 15%;
 }
 .cajaiconosredes {
     display: flex;
@@ -197,14 +198,51 @@ border-radius: 2px;
 /* Seccion 1 HERO IZQUIERDA PRESENTACION*/
 .seccion1izq{
     width: 90%;
+}
+.cajahola {
+    height: 12rem;
+    display: flex;
 } 
 .hola {
     color: rgba(34, 35, 49, 0.50 );
-    font-size: 200px;
+    font-size: 10rem;
     margin: 0%;
     font-family: sans-serif;
     display: flex;
+}
+.lineazigzag {
+    height: 3rem;
+    width: 3rem;
+    margin-left: -16rem;
+    margin-right: 11rem;
+    margin-bottom: 10rem;
+    margin-top: 7.8rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;      
     
+}
+.cubo1 {
+    height: 3rem;
+    width: 3rem;
+    margin-left: -20rem;
+    margin-right: 11rem;
+    margin-bottom: 10rem;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;      
+}
+.cubo2 {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 3rem;
+    margin-right: 11rem;
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;  
 }
 
 .soy {
@@ -212,6 +250,7 @@ border-radius: 2px;
     font-size: 40px;
     font-weight: lighter;
 }
+
 .nombreyapellido {
     color: white;
     display: inline-flex;
@@ -242,7 +281,25 @@ border-radius: 2px;
 .presentacion1 {
     color: white;
     font-size: small;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
+    
+}
+.cajapresentacion {
+    display: flex;
+    width: 50%;
+    margin-bottom: 0%;
+}
+.cubo3 {
+    height: 2rem;
+    width: 2rem;
+    margin-left: -5rem;
+    margin-right: 0rem;
+   
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;  
+
 }
 .nubedescarga {
 padding-right: 5px;
@@ -274,23 +331,23 @@ padding-right: 5px;
     
 }
 .bordepunteado {
-    height: 85%;
-    width: 70%;
+    height: 26.5rem;
+    width: 20rem;
     border: solid 3px;
     border-radius: 2%;
     border-style: dashed;
     border-color: rgb(60, 76, 154);
-    margin-left: 0%;
+    margin-left: 0;
     z-index: -2;
 }
 .imagenacercade {
     background-image: url(imagenes/mujer.jpg);
-    height: 72%;
-    width: 25%;
+    height: 26.5rem;
+    width: 20rem;
     border-radius: 2%;
-    margin-left: 3%;
-    margin-top: -3%;
-    position: absolute;
+    margin-left: -18rem;
+    margin-top: -1.8rem;
+    /*position: absolute;*/
     z-index: -1;
 }
 
@@ -440,6 +497,7 @@ padding-right: 5px;
     background-position: center; 
     color: rgb(100, 123,255);
     font-size: 250%; 
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -504,6 +562,7 @@ padding-right: 5px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 1.5%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -549,7 +608,7 @@ padding-right: 5px;
 
 }
 .portofoliolinea2der {
-    width: 64%;
+    width: 65%;
     height: 100%;
     
     
@@ -627,9 +686,9 @@ padding-right: 5px;
 .inputnombre, .inputemail {
     width: 95%;
     background-color: rgb(14, 15, 38);
-    height: 40px;
-    margin-bottom: 8px;
-    border-radius: 8px;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
     border: none;
     padding-left: 5%;
     color: white;
@@ -637,16 +696,177 @@ padding-right: 5px;
 .inputmensaje {
     width: 95%;
     background-color: rgb(14, 15, 38);
-    height: 200px;
+    height: 12.5rem;
     border-radius: 8px;
     border: none;
     padding-left: 5%;
+    padding-top: 5%;
     color: white;
+    font-family: "Poppins";
+    resize: none;
     
 }
 .botones4, .botones3 {
     display: flex;
     justify-content: center;
-    margin-top: 2%;
+    margin-top: 3%;
+    margin-bottom: 10%;
     
+    
+}
+/*FOOTER*/
+.contenedorfooter {
+    
+    height: 12rem;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footerizquierda {
+    
+    width: 30%;
+    height: 10rem;
+    display: block;
+}
+.footerderecha {
+    
+    width: 70%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.derechos {
+    text-align: center;
+    width: 100%;
+}
+.footerlogo {
+
+height: 25%;
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footerdescripcion {
+
+height: 45%;
+width: 80%;
+font-size: 0.7rem;
+color: white;
+font-weight: 50;
+padding-top: 0.5rem;
+text-align: justify;
+}
+.footerredes {
+
+scale: 0.7;
+width: 80%;
+padding-left: 11%;
+padding-top: -2%;
+}
+.footerenlacerapido {
+    width: 33%;
+    height: 100%;
+    
+    
+}
+.navenlacerapido {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+
+}
+.navfooter {
+    font-size: 0.8rem;
+    color: white;
+    padding: 1% 0%;
+    
+
+}
+.parrafo4 {
+    font-size: 0.8rem;
+    color: white;
+    padding: 1% 0%;
+}
+
+.navfooter:hover {
+    
+    color: rgb(100, 123,255);
+    background: none;
+}
+.titulosfooter {
+    color: white;
+    font-size: 1.1rem ;
+    margin-bottom: 0.7rem;
+}
+.footerservicios {
+    width: 33%;
+    height: 100%;
+    background-color: ;
+
+}
+.footercontacto {
+    width: 33%;
+    height: 100%;
+    background-color: ;
+
+}
+.logo2 {
+    color: rgb(100, 123,255);
+    font-size: 220%;  
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-top: 0;
+    
+}
+.BotonInstagram2 {
+    margin: 10% 2%;
+    height: 1.5rem;
+    background-image: url(imagenes/‎Instagram2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+.BotonFacebook2 {   
+    margin: 10% 2%;
+    height: 1.5rem;
+    background-image: url(imagenes/facebok4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.BotonTwitter2 {
+       
+    margin: 10% 2%;
+    height: 1.5rem;
+    background-image: url(imagenes/twitter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.BotonLinkedin2 {  
+    margin: 10% 2%;
+    height: 1.5rem;
+    background-image: url(imagenes/linkedin4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+.parrafo3 { 
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 50;
+    padding-top: 0.8rem;
+    text-align: justify;
+       
+}
+.derechos {
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 50;
+    border-top: 1px solid white;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
 }
