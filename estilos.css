@@ -31,6 +31,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     margin-bottom: 3%;
+    margin-top: 2%;
 }
 .botones {
     background-color: rgb(100, 123,255);
@@ -333,7 +334,7 @@ padding-right: 5px;
  margin-right: 10%;
  margin-top: 5%;
  display: flex;
- height: 500px;
+ height: 450px;
      
 }
 
@@ -419,7 +420,9 @@ padding-right: 5px;
 
 
 /*SECCION 3: HABILIDADES*/
-
+.seccionhabilidades {
+    margin-bottom: 5rem;
+}
 .navhabilidades {
     
     width: 80%;
@@ -948,8 +951,7 @@ padding-top: -2%;
 .acercadebotones {
     scale: 0.5;
     margin-right: 2rem;
-    margin-left: 1rem;
-    
+    margin-left: 1rem; 
     
 }
 .navhabilidades {
@@ -999,3 +1001,117 @@ padding-top: -2%;
 }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .menu{
+        scale: 0.6;
+        margin-left: -5rem;
+        margin-right: -5rem;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+        padding-bottom: 1px;
+    }
+    .botones{
+        scale: 0.8;
+    }
+    .cajahola{
+        margin-top: 3rem;
+    }
+    .soycontenedor{
+        margin-top: 3rem;
+    }
+    .nombreyapellido{
+        margin-top: 2rem;
+    }
+    .descargarcv {
+        margin-top: 4rem;
+        margin-left: -1rem;
+    }
+    .cajapresentacion {
+        margin-top: 2rem;
+    }
+    .linea {
+        margin-top: 1rem;
+    }
+    .Seguime { 
+        scale: 0.9;
+        
+    }
+    .linea2 {
+        margin-top: 2rem;
+        scale: 0.8;
+    }
+    .cajaiconosredes {
+        scale: 0.7;
+        margin-top: -1rem;
+    
+    }
+    .titulo {
+        font-size: 2rem;        
+    }
+    .acercadeIzq{
+        scale: 0.7;
+        margin-left: -8%;
+    }
+    .acercadeDer {
+        scale: 0.8;
+        margin-left:-10%;
+        margin-right: 0;
+        word-spacing: normal;
+        letter-spacing: normal;
+    }
+    .textoacercade{
+        margin-right: -11%;
+    }
+    .datosizq {
+        margin-right: 3%;
+    }
+    .datoceleste {
+        letter-spacing: 0.4px;
+        
+    }
+    .acercadebotones {
+        
+        margin-right: 3rem;
+        margin-left: 2rem;
+         
+        
+    }
+    .lineahabilidad {
+        scale: 0.8;
+        margin-left: 4%;
+        
+    }
+    .cajahabilidad{
+        margin-right: 5%;
+    }
+    .lineacirculos {
+        scale: 0.8;
+        margin-left: 10%;
+    }
+    .portafolioejemplo1{
+        background-repeat: repeat;
+    }
+    .footer {
+        scale: 0.6;      
+    
+    } 
+    .footerdescripcion{
+        scale: 0.8;
+    }
+    .footerredes {    
+        margin-top: 2.5rem;
+        margin-left: -1rem;
+
+    }
+    .footerenlacerapido{
+        scale: 0.8;        
+    }
+    .footerservicios{
+        scale: 0.8;
+    }
+    .footercontacto{
+        scale: 0.8;
+    }
+
+
