@@ -1017,8 +1017,10 @@ padding-top: -2%;
     
 } 
 .eliminarcubo{
+    display: none;    
+}
+.cubo3{
     display: none;
-    
 }
 
 
